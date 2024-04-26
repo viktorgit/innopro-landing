@@ -1,0 +1,17 @@
+.navigation {
+    margin: 0 20px;
+    .nav_elements {
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        font-size:20px;
+        font-weight:400;
+        flex-wrap: wrap;
+        a {
+            margin-right: 20px;
+        }
+        a:last-child {
+            margin-right: 0;
+        }
+    }
+}
